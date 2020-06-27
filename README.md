@@ -1,30 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# El Mall
 
-## Getting Started
+El Mall es una iniciativa social que busca impulsar el negocio local, ofreciendo en una sola plataforma una manera accesible, simple y rápida de hacer sus compras, teniendo como base la ética ambiental, el cosumo local, la inclusividad y el impulso a pequeños emprendedores.
+Buscamos tener un impacto social ofreciendo alternativas de consumo inteligente y responsable, brindando conveniencia en los procesos, clave fundmental en nuestra generación y en las futuras.
 
-First, run the development server:
+# Technology stack
 
-```bash
-npm run dev
-# or
-yarn dev
+| Technology                                 | Usage          |
+| ------------------------------------------ | -------------- |
+| [NextJS](https://nextjs.org/)              | SEO            |
+| [React](https://reactjs.org/)              | UI development |
+| [Apolllo](https://www.apollographql.com/)  | Client Graphql |
+| [EmotionJS](https://github.com/emotion-js) | CSS in JS      |
+| [Tailwind css](https://tailwindcss.com/)   | Style          |
+
+## Prequisites
+
+- nodeJs
+
+## Installation
+
+```
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Run
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+To run the application
 
-## Learn More
+```
+npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Tests
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Ton run the tests
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```
+npm run test
+```
 
-## Deploy on Vercel
+## Linting
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Ton lint the project
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```
+npm run lint
+```
